@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+body{
+    margin: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    color: rgb(60, 0, 128);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.logo{
+    width: 50vh;
+}
+.menu{
+    font-size: 3vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 2, 82);
+    padding: 4vh;
+}
+.murcielago-blanco{
+    margin: 4vh;
+    width: 120px;
+}
+main h1{
+    font-family: 'Fruktur';
+    margin: 4vh;
+    color: white;
+}
+.gif{
+    width: 100vh;
+}
+
+article{
+    margin: 2vh;
+    padding: 4vh;
+    display: flex;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1vh;
+}
+.fotos{
+    padding: 10px;
+}
+
+#last-foto{
+    justify-content: center;
+    margin: 4vh;
+    margin-bottom: 0%;
+    height: 45vh;
+    background-image: url(img/bg-la-muerte-viva.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.last-titulo{
+    color: white;
+   
+}
+
+button{
+background-color: rgb(255, 136, 0);
+width: 45vh;
+height: 5vh;
+
+}
+
+footer{
+    margin-top: 0%;
+    color: gray;
+    background-color: rgb(216, 211, 187);
+}
